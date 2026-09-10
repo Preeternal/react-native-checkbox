@@ -11,7 +11,6 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.facebook.react'
 
 def getExtOrDefault(name) {
     return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['ReactNativeCheckBox_' + name]
